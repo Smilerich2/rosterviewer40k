@@ -1,0 +1,152 @@
+[
+  {
+    "id": "AoI",
+    "name": "Imperial Agents",
+    "datasheetCount": 45,
+    "detachmentCount": 7
+  },
+  {
+    "id": "AM",
+    "name": "Astra Militarum",
+    "datasheetCount": 128,
+    "detachmentCount": 9
+  },
+  {
+    "id": "GC",
+    "name": "Genestealer Cults",
+    "datasheetCount": 136,
+    "detachmentCount": 9
+  },
+  {
+    "id": "NEC",
+    "name": "Necrons",
+    "datasheetCount": 64,
+    "detachmentCount": 12
+  },
+  {
+    "id": "AE",
+    "name": "Aeldari",
+    "datasheetCount": 97,
+    "detachmentCount": 17
+  },
+  {
+    "id": "TL",
+    "name": "Adeptus Titanicus",
+    "datasheetCount": 4,
+    "detachmentCount": 0
+  },
+  {
+    "id": "ORK",
+    "name": "Orks",
+    "datasheetCount": 86,
+    "detachmentCount": 11
+  },
+  {
+    "id": "UN",
+    "name": "Unaligned Forces",
+    "datasheetCount": 20,
+    "detachmentCount": 0
+  },
+  {
+    "id": "GK",
+    "name": "Grey Knights",
+    "datasheetCount": 31,
+    "detachmentCount": 8
+  },
+  {
+    "id": "TAU",
+    "name": "T’au Empire",
+    "datasheetCount": 62,
+    "detachmentCount": 8
+  },
+  {
+    "id": "LoV",
+    "name": "Leagues of Votann",
+    "datasheetCount": 21,
+    "detachmentCount": 9
+  },
+  {
+    "id": "AdM",
+    "name": "Adeptus Mechanicus",
+    "datasheetCount": 36,
+    "detachmentCount": 9
+  },
+  {
+    "id": "TS",
+    "name": "Thousand Sons",
+    "datasheetCount": 60,
+    "detachmentCount": 9
+  },
+  {
+    "id": "DG",
+    "name": "Death Guard",
+    "datasheetCount": 71,
+    "detachmentCount": 10
+  },
+  {
+    "id": "EC",
+    "name": "Emperor’s Children",
+    "datasheetCount": 22,
+    "detachmentCount": 7
+  },
+  {
+    "id": "WE",
+    "name": "World Eaters",
+    "datasheetCount": 58,
+    "detachmentCount": 8
+  },
+  {
+    "id": "QT",
+    "name": "Chaos Knights",
+    "datasheetCount": 37,
+    "detachmentCount": 5
+  },
+  {
+    "id": "CD",
+    "name": "Chaos Daemons",
+    "datasheetCount": 106,
+    "detachmentCount": 10
+  },
+  {
+    "id": "QI",
+    "name": "Imperial Knights",
+    "datasheetCount": 27,
+    "detachmentCount": 5
+  },
+  {
+    "id": "SM",
+    "name": "Space Marines",
+    "datasheetCount": 298,
+    "detachmentCount": 40
+  },
+  {
+    "id": "TYR",
+    "name": "Tyranids",
+    "datasheetCount": 55,
+    "detachmentCount": 12
+  },
+  {
+    "id": "AC",
+    "name": "Adeptus Custodes",
+    "datasheetCount": 31,
+    "detachmentCount": 8
+  },
+  {
+    "id": "AS",
+    "name": "Adepta Sororitas",
+    "datasheetCount": 37,
+    "detachmentCount": 7
+  },
+  {
+    "id": "CSM",
+    "name": "Chaos Space Marines",
+    "datasheetCount": 110,
+    "detachmentCount": 16
+  },
+  {
+    "id": "DRU",
+    "name": "Drukhari",
+    "datasheetCount": 43,
+    "detachmentCount": 10
+  }
+]

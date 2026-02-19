@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Wahapedia scraper cache (temp files, not needed in repo)
+/wahapedia-cache/
+# Note: /public/wahapedia/ is intentionally tracked (pre-built data)

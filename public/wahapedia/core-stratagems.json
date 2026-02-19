@@ -1,0 +1,198 @@
+[
+  {
+    "name": "EXPLOSIVE CLEARANCE",
+    "type": "Boarding Actions – Battle Tactic Stratagem",
+    "cost": "1",
+    "when": "Your turn – Shooting phase",
+    "description": "WHEN: Your Shooting phase. TARGET: One unit from your army that has not been selected to shoot this phase. EFFECT: Select one model in your unit that is equipped with a weapon with the [BLAST] ability. Until the end of the phase, when determining how many models are in the target unit for the purpose of that ability, include models that are not visible to the attacking model. In addition, attacks made with that weapon can be allocated to models that are not visible to the attacking model."
+  },
+  {
+    "name": "INSANE BRAVERY",
+    "type": "Boarding Actions – Epic Deed Stratagem",
+    "cost": "1",
+    "when": "Your turn – Command phase",
+    "description": "WHEN: Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army. TARGET: The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems). EFFECT: Your unit is treated as having passed that test instead, and is not Battle-shocked as a result."
+  },
+  {
+    "name": "COMMAND RE-ROLL",
+    "type": "Boarding Actions – Epic Deed Stratagem",
+    "cost": "1",
+    "when": "Either player’s turn – Any phase",
+    "description": "WHEN: Any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army. TARGET: That unit or model from your army. EFFECT: You re-roll that roll, test or saving throw."
+  },
+  {
+    "name": "COUNTER-OFFENSIVE",
+    "type": "Boarding Actions – Strategic Ploy Stratagem",
+    "cost": "2",
+    "when": "Either player’s turn – Fight phase",
+    "description": "WHEN: Fight phase, just after an enemy unit has fought. TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase. EFFECT: Your unit fights next."
+  },
+  {
+    "name": "BATTLEFIELD COMMAND",
+    "type": "Boarding Actions – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Either player’s turn – Any phase",
+    "description": "WHEN: Start or end of any phase. TARGET: One Leader unit from your army and one friendly Bodyguard unit within 6\" of it that it could normally be attached to. EFFECT: Select one of your Leader unit’s Leader abilities. Until the start of your next Command phase, that Bodyguard unit is treated as being led by that Leader unit for the purposes of that Leader ability. RESTRICTIONS: Once you target a unit with this Stratagem, that unit cannot be targeted with it again until your next Command phase."
+  },
+  {
+    "name": "RENEWED FOCUS",
+    "type": "Challenger – Battle Tactic Stratagem",
+    "cost": "0",
+    "when": "Your turn – Shooting or Fight phase",
+    "description": "WHEN: Your Shooting phase or your Fight phase. TARGET: One unit from your army that has not been selected to shoot or fight this phase. EFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+  },
+  {
+    "name": "OPPORTUNISTIC STRIKE",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Shooting phase",
+    "description": "WHEN: Your Shooting phase. TARGET: One unit from your army that is not within Engagement Range of one or more enemy units. EFFECT: Select one enemy unit that is not within Engagement Range of one or more units from your army and is within 6\" of and visible to your unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+  },
+  {
+    "name": "BURST OF SPEED",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Shooting phase",
+    "description": "WHEN: End of your Shooting phase. TARGET: One unit from your army (excluding units that made a move this phase). EFFECT: Your unit can make a Normal move of up to D6\", and then cannot move again this phase."
+  },
+  {
+    "name": "FORCE A BREACH",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Movement phase",
+    "description": "WHEN: Your Movement phase. TARGET: One unit from your army that has not been selected to move this phase. EFFECT: Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through models and terrain features."
+  },
+  {
+    "name": "GREAT HASTE",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Movement phase",
+    "description": "WHEN: Your Movement phase. TARGET: One unit from your army that has not been selected to move this phase. EFFECT: Until the end of the phase, add D6\" to the Move characteristic of models in your unit."
+  },
+  {
+    "name": "PIVOTAL MOMENT",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Movement phase",
+    "description": "WHEN: Your Movement phase. TARGET: One unit from your army. EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+  },
+  {
+    "name": "STRATEGIC RETREAT",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Shooting phase",
+    "description": "WHEN: Start of your Shooting phase. TARGET: One unit from your army (excluding MONSTERS and VEHICLES) that is not within Engagement Range of one or more enemy units. EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves."
+  },
+  {
+    "name": "ALL IN",
+    "type": "Challenger – Strategic Ploy Stratagem",
+    "cost": "0",
+    "when": "Your turn – Fight phase",
+    "description": "WHEN: Your Fight phase. TARGET: One unit from your army that has not been selected to fight this phase. EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit."
+  },
+  {
+    "name": "HARBOURED POWER",
+    "type": "Challenger – Wargear Stratagem",
+    "cost": "0",
+    "when": "Your turn – Shooting or Fight phase",
+    "description": "WHEN: Your Shooting phase or your Fight phase. TARGET: One unit from your army that has not been selected to shoot or fight this phase. EFFECT: Until the end of the phase, weapons equipped by models in your unit have the [HAZARDOUS] ability and your choice of the [LETHAL HITS] or [SUSTAINED HITS 1] ability."
+  },
+  {
+    "name": "GO TO GROUND",
+    "type": "Core – Battle Tactic Stratagem",
+    "cost": "1",
+    "when": "Opponent’s turn – Shooting phase",
+    "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets. TARGET: One INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks. EFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover."
+  },
+  {
+    "name": "COMMAND RE-ROLL",
+    "type": "Core – Battle Tactic Stratagem",
+    "cost": "1",
+    "when": "Either player’s turn – Any phase",
+    "description": "WHEN: Any phase, just after you make an Advance roll, a Charge roll, a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll, a Wound roll, a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling, this Stratagem can still be used after rolling multiple rolls or saving throws at once. TARGET: That unit or model from your army. EFFECT: You re-roll that roll, test or saving throw. If you are using fast dice rolling, select one of those rolls or saving throws to re-roll."
+  },
+  {
+    "name": "EPIC CHALLENGE",
+    "type": "Core – Epic Deed Stratagem",
+    "cost": "1",
+    "when": "Either player’s turn – Fight phase",
+    "description": "WHEN: Fight phase, when a CHARACTER unit from your army that is within Engagement Range of one or more Attached units is selected to fight. TARGET: One CHARACTER model in your unit. EFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability."
+  },
+  {
+    "name": "INSANE BRAVERY",
+    "type": "Core – Epic Deed Stratagem",
+    "cost": "1",
+    "when": "Your turn – Command phase",
+    "description": "WHEN: Battle-shock step of your Command phase, just before you take a Battle-shock test for a unit from your army. TARGET: That unit from your army. EFFECT: Your unit automatically passes that Battle-shock test. RESTRICTIONS: You cannot use this Stratagem more than once per battle."
+  },
+  {
+    "name": "HEROIC INTERVENTION",
+    "type": "Core – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Opponent’s turn – Charge phase",
+    "description": "WHEN: Your opponent’s Charge phase, just after an enemy unit ends a Charge move. TARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase. EFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase. RESTRICTIONS: You can only select a VEHICLE unit from your army if it is a WALKER. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
+  },
+  {
+    "name": "FIRE OVERWATCH",
+    "type": "Core – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Opponent’s turn – Movement or Charge phase",
+    "description": "WHEN: Your opponent’s Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance or Fall Back move, or declares a charge. TARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase. EFFECT: If that enemy unit is visible to your unit, your unit can shoot that enemy unit as if it were your Shooting phase. RESTRICTIONS: You cannot target a TITANIC unit with this Stratagem. Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers. You can only use this Stratagem once per turn."
+  },
+  {
+    "name": "RAPID INGRESS",
+    "type": "Core – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Opponent’s turn – Movement phase",
+    "description": "WHEN: End of your opponent’s Movement phase. TARGET: One unit from your army that is in Reserves. EFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase, and if every model in that unit has the Deep Strike ability, you can set that unit up as described in the Deep Strike ability (even though it is not your Movement phase). RESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+  },
+  {
+    "name": "COUNTER-OFFENSIVE",
+    "type": "Core – Strategic Ploy Stratagem",
+    "cost": "2",
+    "when": "Either player’s turn – Fight phase",
+    "description": "WHEN: Fight phase, just after an enemy unit has fought. TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase. EFFECT: Your unit fights next."
+  },
+  {
+    "name": "TANK SHOCK",
+    "type": "Core – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Your turn – Charge phase",
+    "description": "WHEN: Your Charge phase, just after a VEHICLE unit from your army ends a Charge move. TARGET: That VEHICLE unit. EFFECT: Select one enemy unit within Engagement Range of your unit, and select one VEHICLE model in your unit that is within Engagement Range of that enemy unit. Roll a number of D6 equal to the Toughness characteristic of the selected VEHICLE model. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+  },
+  {
+    "name": "SMOKESCREEN",
+    "type": "Core – Wargear Stratagem",
+    "cost": "1",
+    "when": "Opponent’s turn – Shooting phase",
+    "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets. TARGET: One SMOKE unit from your army that was selected as the target of one or more of the attacking unit’s attacks. EFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover and the Stealth ability."
+  },
+  {
+    "name": "GRENADE",
+    "type": "Core – Wargear Stratagem",
+    "cost": "1",
+    "when": "Your turn – Shooting phase",
+    "description": "WHEN: Your Shooting phase. TARGET: One GRENADES unit from your army (excluding units that Advanced, Fell Back or have shot this turn) that is not within Engagement Range of one or more enemy units. EFFECT: Select one GRENADES model in your unit and one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your GRENADES model. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+  },
+  {
+    "name": "NEW ORDERS",
+    "type": "Core Stratagem – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Your turn – Command phase",
+    "description": "WHEN: End of your Command phase. TARGET: One of your active Secondary Mission cards. EFFECT: Discard it and draw one new Secondary Mission card."
+  },
+  {
+    "name": "NEW ORDERS",
+    "type": "Core Stratagem – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Your turn – Command phase",
+    "description": "WHEN: End of your Command phase. TARGET: One of your active Secondary Mission cards. EFFECT: Discard it and draw one new Secondary Mission card."
+  },
+  {
+    "name": "NEW ORDERS",
+    "type": "Core Stratagem – Strategic Ploy Stratagem",
+    "cost": "1",
+    "when": "Your turn – Command phase",
+    "description": "WHEN: End of your Command phase. TARGET: One of your active Secondary Mission cards. EFFECT: Discard it and draw one new Secondary Mission card. RESTRICTIONS: You can only use this Stratagem once per battle."
+  }
+]
