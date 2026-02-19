@@ -264,7 +264,7 @@ export function RosterViewer() {
           <div className="max-w-5xl mx-auto pb-16">
             {/* Army banner */}
             <div className={`${theme.secondary} text-white px-5 py-4 rounded-xl shadow-md mb-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b-4 ${theme.border} print:hidden`}>
-              <div>
+              <div className="min-w-0 overflow-hidden">
                 <h2 className="text-lg sm:text-xl font-bold uppercase truncate">{parsedData.armyName}</h2>
                 <div className="text-white/50 text-xs truncate mt-0.5">{fileName}</div>
               </div>

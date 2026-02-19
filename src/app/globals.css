@@ -14,12 +14,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Dark mode deaktiviert — App ist immer hell */
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 body {
   background: var(--background);
