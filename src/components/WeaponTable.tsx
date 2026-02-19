@@ -82,6 +82,12 @@ function CompactWeaponTable({ title, weapons, rules }: Pick<Props, 'title' | 'we
 
 // ─── Full mode (used inside UnitCard) ─────────────────────────────────────────
 
+const ABBREV: Record<string, string> = {
+  Range: 'RNG', Attacks: 'A', 'Ballistic Skill': 'BS', 'Weapon Skill': 'WS',
+  Strength: 'S', 'Armour Penetration': 'AP', Damage: 'D',
+  Keywords: 'Abilities', Fähigkeiten: 'Fähigk.',
+};
+
 function FullWeaponTable({ title, weapons, icon: Icon, rules, theme }: Omit<Props, 'compact'>) {
   const headers = weapons[0].characteristics.map(c => c.name);
 
@@ -90,14 +96,16 @@ function FullWeaponTable({ title, weapons, icon: Icon, rules, theme }: Omit<Prop
       <h4 className="flex items-center gap-2 font-bold text-slate-700 dark:text-slate-300 uppercase text-xs tracking-widest mb-2 pb-1.5 border-b border-slate-200 dark:border-slate-700">
         <Icon size={14} /> {title}
       </h4>
-      {/* min-w-full on table ensures it can grow beyond container width and scroll */}
       <div className="overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-700">
-        <table className="min-w-full text-sm text-left border-collapse">
+        <table className="min-w-full text-xs sm:text-sm text-left border-collapse">
           <thead>
-            <tr className={`${theme.secondary} text-white text-xs uppercase tracking-wide`}>
-              <th className="px-3 py-2 font-semibold whitespace-nowrap">Waffe</th>
+            <tr className={`${theme.secondary} text-white uppercase tracking-wide`}>
+              <th className="px-2 sm:px-3 py-2 font-semibold whitespace-nowrap text-[10px] sm:text-xs">Waffe</th>
               {headers.map(h => (
-                <th key={h} className="px-3 py-2 font-semibold whitespace-nowrap text-center last:text-left">{h}</th>
+                <th key={h} className="px-1 sm:px-3 py-2 font-semibold whitespace-nowrap text-center last:text-left text-[10px] sm:text-xs">
+                  <span className="sm:hidden">{ABBREV[h] ?? h}</span>
+                  <span className="hidden sm:inline">{h}</span>
+                </th>
               ))}
             </tr>
           </thead>
@@ -107,13 +115,13 @@ function FullWeaponTable({ title, weapons, icon: Icon, rules, theme }: Omit<Prop
                 key={idx}
                 className="border-b border-slate-100 dark:border-slate-800 last:border-0 even:bg-slate-50/60 dark:even:bg-slate-800/20 hover:bg-slate-100 dark:hover:bg-slate-800/40 transition-colors"
               >
-                <td className="px-3 py-2 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">{w.name}</td>
+                <td className="px-2 sm:px-3 py-1.5 sm:py-2 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap text-[11px] sm:text-sm">{w.name}</td>
                 {w.characteristics.map((char, cIdx) => {
                   const isKeyword = char.name === 'Keywords' || char.name === 'Fähigkeiten';
                   return (
                     <td
                       key={cIdx}
-                      className={`px-3 py-2 text-slate-600 dark:text-slate-300 ${isKeyword ? 'min-w-[140px]' : 'text-center whitespace-nowrap tabular-nums'}`}
+                      className={`px-1 sm:px-3 py-1.5 sm:py-2 text-slate-600 dark:text-slate-300 text-[11px] sm:text-sm ${isKeyword ? 'min-w-[100px] sm:min-w-[140px]' : 'text-center whitespace-nowrap tabular-nums'}`}
                     >
                       {cellContent(char.name, char.$text, rules)}
                     </td>
