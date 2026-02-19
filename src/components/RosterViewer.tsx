@@ -13,6 +13,7 @@ import { CompactRow } from '@/components/CompactRow';
 import { NavSidebar } from '@/components/NavSidebar';
 import { DetachmentPanel } from '@/components/DetachmentPanel';
 import { LandingHero } from '@/components/LandingHero';
+import { UpdateButton } from '@/components/UpdateButton';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -246,6 +247,8 @@ export function RosterViewer() {
                   <LayoutList size={18} />
                 </ViewButton>
               </div>
+
+              <UpdateButton />
             </div>
           </div>
 
